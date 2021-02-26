@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>How well do you know your Skin?</title>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <style>
+      .bucket {
+        background-image: url("assets/bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+        opacity: 0.9;
+        width: 100vw;
+        height: auto;
+        color: azure;
+      }
+      #headone {
+        color: #fff;
+      }
+      #msghere {
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff;
+      }
+      .logo {
+        width: 100%;
+      }
+
+      .logo img {
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      #bucket {
+        background-color: rgb(199, 158, 117);
+        opacity: 0.9;
+      }
+      .bucket {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Times New Roman", Times, serif;
+
+        text-align: center;
+
+        /*margin: auto;
+	max-width: 1100px;
+	overflow: auto;
+	padding: 0 20px;*/
+      }
+      #showcas .showcase-content {
+        color: #fff;
+
+        text-align: center;
+
+        padding: 70px 40px;
+        width: 80%;
+        background-color: rgb(199, 158, 117);
+        margin: 50px !important;
+        height: min-content;
+        font-family: "Times New Roman", Times, serif;
+
+        border-radius: 0px;
+      }
+      #showcas .showcase-content h1 {
+        font-size: 50px;
+        line-height: 1.2em;
+      }
+      #showcas .showcase-content h2,
+      #showcas .showcase-content h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        line-height: 1.7em;
+        font-weight: lighter;
+      }
+      #showcas .btn {
+        background: #000000;
+        display: inline-block;
+        font-size: 20px;
+        color: #ffffff;
+        margin: 0.5rem;
+        padding: 13px 20px;
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      #showcas .btn:hover {
+        background: transparent;
+        border: 1px solid rgb(17, 16, 16);
+        color: #fff;
+      }
+      /* Share Buttons */
+
+      .footer {
+        background-color: rgb(250, 250, 250);
+        color: #000;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 !important;
+      }
+      .share-btn-area {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        width: 100vw;
+      }
+
+      .share-btn-area a i {
+        font-size: 30px;
+        padding: 7px;
+        overflow: hidden;
+      }
+
+      .share-btn-area a {
+        margin: 12px 0;
+
+        color: rgb(199, 158, 117);
+      }
+
+      .share-btn-area a:hover {
+        color: #000;
+      }
+      @media (max-width: 540px) {
+        #showcas #msghere {
+          font-size: 17px;
+        }
+        #showcas .showcase-content {
+          color: #fff;
+
+          text-align: center;
+
+          padding: 20px 50px;
+          width: 80%;
+
+          font-size: 20px;
+          line-height: 17px;
+          font-family: "Times New Roman", Times, serif;
+
+          border-radius: 0px;
+        }
+        #showcas .showcase-content h1 {
+          font-size: 19px;
+          font-weight: bold;
+        }
+        #showcas .showcase-content h2 {
+          font-size: 17px;
+        }
+        #headone {
+          font-size: 50px;
+          font-weight: bolder;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--navbar
+    <nav id="navbar" class="navfull">
+      <h1 class="logo">
+        <a href="index.html"
+          ><img src="assets/logo.png" width="7%"
+        /></a>
+      </h1>
+    </nav>
+    <br /><br /><br />-->
+    <div id="showcas">
+      <div class="bucket">
+        <div class="showcase-content" id="bucket">
+          <!--<h2>
+            Here is your result!.
+          </h2>-->
+          <br />
+          <h1 class="headmsg" id="headone"></h1>
+
+          <!--<br />
+          <h1><span class="points"></span></h1>
+          <br />-->
+          <br />
+          <p class="msghere" id="msghere"></p>
+          <a class="btn" href="#" target="_blank">Download Book!</a>
+        </div>
+      </div>
+    </div>
+    <footer class="share-btn-area footer">
+      <div>
+        <h5>Share the results with your friends!</h5>
+      </div>
+      <div>
+        <a href="#" class="facebook-btn"> <i class="fab fa-facebook"></i></a>
+
+        <!-- <a href="#" class="instagram-btn">
+      <i class="fab fa-instagram"></i>
+    </a>-->
+
+        <a href="#" class="linkedin-btn"><i class="fab fa-linkedin"></i></a>
+
+        <a href="#" class="whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="twitter-btn"><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+
+    <!-- user info -->
+    <script src="userInfo.js"></script>
+    <!-- <script src="./js/form.js"></script>-->
+  </body>
+</html>
