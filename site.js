@@ -65,7 +65,8 @@ let questions = [
 
 let question_count = 0;
 //let points = 0;
-Max_Questions = 6;
+let Max_percentage = 100;
+let Max_Questions = 6;
 let firstTypePoints = 0;
 let secondTypePoints = 0;
 let thirdTypePoints = 0;
@@ -156,7 +157,7 @@ function show(count) {
   //progress text
   const progressText = document.getElementById("progressText");
 
-  progressText.innerText = `Question ${count + 1}/${Max_Questions}`;
+  progressText.innerText = `${Math.round(count + 1 / Max_percentage) * 15}%`;
 
   let question = document.getElementById("questions");
   let [first, second, third, fourth] = questions[count].options;

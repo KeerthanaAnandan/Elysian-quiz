@@ -1,7 +1,7 @@
 body {
   /*background:url('../img/btsstage3.jpg')center/cover no-repeat fixed;*/
   color: #000000;
-  font-family: "Arial", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
 }
 .imgbucket {
@@ -34,13 +34,13 @@ body {
 }
 .fullform > h3 {
   color: #fdd20f !important;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 #moveup {
   color: #fbcd18;
   margin-top: -20px;
   margin-bottom: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 header {
   text-align: center;
@@ -107,7 +107,7 @@ input[type="submit"] {
 
 /* --------x------ Site title --------x------- */
 body {
-  font-family: "Lato";
+  font-family: "Josefin Sans", sans-serif;
 }
 .wrapper {
   display: flex;
@@ -151,7 +151,7 @@ body {
   border: none;
   border-radius: 1px;
   background-color: rgb(0, 0, 0);
-  color: #ffffff;
+  color: #000;
   font-size: 22px;
   transition: 0.4s all;
 }
@@ -162,7 +162,7 @@ body {
   cursor: pointer;
 }
 #questions {
-  color: white;
+  color: #000;
 }
 .quiz {
   display: grid;
@@ -172,14 +172,14 @@ body {
 }
 .quiz_body {
   padding: 30px 30px;
-  background-color: rgb(199, 158, 117);
+  background-color: #f1d9d3;
 }
 .quiz_user {
   display: flex;
   align-items: center;
   height: 100%;
   padding-left: 30px;
-  background-color: rgb(199, 158, 117);
+  background-color: #f1d9d3;
 }
 .option_group {
   list-style-type: none;
@@ -187,12 +187,12 @@ body {
 }
 .option.active {
   background-color: #000000;
-  color: #fff;
+  color: #000;
 }
 .quiz_header,
 .hud {
   text-align: center;
-  color: white;
+  color: #000;
 }
 #hud-item {
   text-align: center;
@@ -201,12 +201,12 @@ body {
 #progressBar {
   width: 30rem;
   height: 2rem;
-  border: 0.2rem solid rgb(87, 55, 24);
+  border: 0.2rem solid rgb(199, 158, 24);
 }
 
 #progressBarFull {
   height: 1.7rem;
-  background-color: rgb(161, 119, 56);
+  background-color: rgb(199, 158, 117);
 
   width: 2%;
 }
@@ -214,7 +214,7 @@ body {
 li {
   display: flex;
   padding: 10px 10px;
-  background-color: rgb(199, 158, 117);
+  background-color: #f1d9d3;
   opacity: 0.8;
 }
 
@@ -223,7 +223,7 @@ li {
   margin-bottom: 0.5rem;
   width: 100%;
   font-size: 1.8rem;
-  border: 0.2rem solid rgb(87, 55, 24);
+  border: 0.2rem solid rgb(199, 158, 117);
   background-color: white;
   color: #000 !important;
 }
@@ -286,7 +286,7 @@ li {
   height: 100vh;
   background-color: #fbcd18;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 #wrapper h1 {
   font-weight: bold;
@@ -443,7 +443,7 @@ li {
   color: #25d366;
 }
 #raboto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 @media (max-width: 540px) {
@@ -569,7 +569,7 @@ li {
     margin: 0 20px;
     font-size: smaller;
     background-color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     line-height: 25px;
   }
 
