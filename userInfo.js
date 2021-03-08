@@ -29,7 +29,7 @@ if (
 }
 
 //second
-if (
+else if (
   secondTypePoints > firstTypePoints &&
   secondTypePoints > thirdTypePoints &&
   secondTypePoints > fourthTypePoints
@@ -73,6 +73,15 @@ else if (
     "●	Light moisturizers",
     "●	Intensive cleansing masks",
     'Important: creams, scrubs and masks are not to be applied to the skin with rashes or inflammations. When severe acne and inflammation appear, it is better to consult an aesthetician or a dermatologist.The good news is that oily skin tends to age more slowly. Wrinkles on it are formed later: excess sebum forms a reliable "protective layer" and protects it from drying out. With good care, such skin becomes normal over the years and delights with its freshness for a long time.',
+  ];
+}
+//all
+else {
+  typo = "You have a Combination Skin: needs a different approach";
+  mess = [
+    "This is the most common skin type. Combination skin has both oily and normal or even dry areas. Generally, the skin on the nose, forehead and chin is more oily. These areas are called the T-zone. Here, pustules are more often formed, enlarged pores, black spots are visible, within an hour after washing the skin becomes shiny.",
+    "At the same time, on the temples and cheeks, the skin can be normal (even, matte) or even slightly dry. However, oily and dry skin areas can be positioned differently",
+    "Skin care for combination skin type depends on the season and its condition. Seperate care helps to even out the condition of different areas. The simplest option: cleanse the skin with universal milk cleanser or facial wash, and then treat oily areas with a drying tonic, and apply a moisturizer to dry ones.",
   ];
 }
 
