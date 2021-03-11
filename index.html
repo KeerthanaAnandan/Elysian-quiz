@@ -5,173 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>How well do you know your Skin?</title>
-    
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <!-- Custom Style  
-    <link rel="stylesheet" href="css/style.css" />-->
-    <style>
-      *{margin:0;
-      padding: 0;}
-     /* .imgbucket {
+   
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css" />
+  <!--  <style>
+     .wrapper {
         background-image: url("assets/bg.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        opacity: 1;
-        width: 100vw;
-        height: 100vh;
-      }*/
-     /*showcase*/
-
-/*showcase*/
-.container {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Josefin Sans', sans-serif;
-  /*margin: auto;
-  max-width: 1100px;
-  overflow: auto;
-  padding: 0 20px;*/
-}
-/*
-#showcase {
-  background: url("../../assets/tennis.jpg") no-repeat center center/cover;
-  height: 900px;
-}*/
-#showcase .showcase-content {
-  color: #000;
-
-  text-align: center;
-
-  
-
-  font-family: 'Josefin Sans', sans-serif;
-}
-#showcase .showcase-content h1 {
-  font-size: 50px;
-  line-height: 1.2em;
-}
-#showcase .showcase-content h2,
-#showcase .showcase-content p {
-  font-size: 20px;
-  padding-bottom: 20px;
-  line-height: 1.1em;
-  font-weight: lighter;
-}
-#lilist{
-  line-height: normal !important;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.showcase-content .btn {
-  background-color: #f1d9d3;
-  display: inline-block;
-  font-size: 20px;
-  color: #000;
-  margin: 1.5rem;
-  padding: 13px 20px;
-  border: 2px solid #000;
-  border-radius: 0px;
-  cursor: pointer;
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.showcase-content .btn:hover {
-  background: transparent;
-  border: 1px solid rgb(17, 16, 16);
-  color: rgb(24, 22, 22);
-}
-@media (max-width: 540px) {
-  #showcase {
-    height: 800px;
-  }
-  #showcase .showcase-content h1 {
-    font-size: 20px;
-    line-height: 1.2em;
-  }
-  #showcase .showcase-content h2,
-  #showcase .showcase-content p {
-    font-size: 12px;
-    padding-bottom: 20px;
-    line-height: 1.7em;
-  }}
-
-    </style>
+      }
+    </style>-->
   </head>
   <body>
-    <!--navbar-->
-    <nav id="navbar">
+     <!--navbar-->
+     <nav id="navbar">
       <h1 class="logo">
-        <img src="Assets/logo.png" width="15%" />
+        <img src="Assets/logo.png" width="20%" />
       </h1>
     </nav>
-
-    <main>
-      <!--- <nav id="navbar">
-        
-          <div class="logo"><a href="index.html"><img src="assets/logo.png"/></a></div>
-          
-      
-      
-      </nav>-->
-      <div id="showcase" class="imgbucket">
-        <div class="container">
-          <div class="showcase-content">
-            <!-- <img src="assets/polardentlogo.png" width="35%" id="imgcol" />-->
-
-            <h1 class="lead">See How well</h1>
-            <h1>you know your Skin</h1>
-            <p>"I bought an expensive cream, but it did work for me."</p>
-            <p>
-              "In winter, I seem to use the same cleanser, but after washing my
-              face suddenly starts to burn."
+    <div class="wrapper">
+      <div class="quiz">
+        <div class="quiz_header hud">
+          <div class="quiz_user">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">
+                Question
             </p>
-<br>
-            <p>
-              These cases speak of how important it is to know the skin type and
-              what it is used to. In the same way, as we know our shoe size,
-              clothing size and bra measurements. Each person has individual
-              skin: it differs in structure, metabolic rate, sensitivity to
-              stimuli. Accordingly, our skin looks differently and needs
-              different care products.
-            </p>
-
-            <p>
-              There are 4 main types of healthy skin:
-              <div id="lilist"> 
-                <p>● Normal</p>
-                <p>● Oily</p>
-                <p>● Dry</p>
-                <p>● Combination</p>
-            
+              <div id="progressBar">
+              <div id="progressBarFull"></div>
               </div>
-            </p>
-            <!--- <div>
-              <input
-                type="text"
-                name="name"
-                id="namebox"
-                placeholder="Enter your name"
-                onchange="inputhandler(event)"
-              />
-            </div>-->
-
-            <div>
-              <a class="btn" href="quiz.html"> Take the Quiz</a>
-            </div>
           </div>
+         <!--- <div id="hud-item" class="hud-prefix quiz_timer">
+            <span class="time">00:00</span>
+          </div> -->
+          </div>
+          <br>
+      </div>
+        <div class="quiz_body">
+          <div id="questions" onclick="next()">
+            <!-- <ul class="option_group">
+              <li class="option">option 1</li>
+              <li class="option">option 2</li>
+              <li class="option">option 3</li>
+              <li class="option">option 4</li>
+            </ul> -->
+          </div>
+
+         <!---<button class="btn-next" onclick="next()">Next Question</button>-->
         </div>
       </div>
-    </main>
+      </div>
+    </div>
 
-    <!-----------------custom js--------------------->
+    <!-- site.js -->
+    <script src="site.js"></script>
+<script src="userInfo.js"></script>
+
+    
   </body>
 </html>
