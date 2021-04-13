@@ -91,13 +91,25 @@ input[type="submit"] {
 }
 
 /*----------------NAV----------*/
+#navbar{
+  background-color: #ffffff;
+  margin: 0 !important;
+  width:100vw;
+  height:200px;
+  margin-bottom:-100px;
+  padding: 0;
 
+}
 #navbar .logo {
   float: left;
-  top: 0;
+  top: 0 !important;
   color: #fff;
   opacity: 1 !important;
-}
+  padding: 0% !important;
+  margin-bottom:-90px !important;
+  height:50px !important; }
+
+
 
 #namebox {
   padding: 10px;
@@ -112,7 +124,7 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  /*align-items: flex-start;*/
   width: 100vw;
   height: 100vh;
   background-color: #ffffff;
